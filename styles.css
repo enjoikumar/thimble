@@ -1,0 +1,105 @@
+*{
+  margin: 0;
+}
+
+@font-face {
+  font-family: ct-bold;
+  src: url(assets/CentraThimble-Bold.ttf);
+}
+@font-face {
+  font-family: ct-book;
+  src: url(assets/CentraThimble-Book.ttf);
+}
+@font-face {
+  font-family: ct-italic;
+  src: url(assets/CentraThimble-BookItalic.ttf);
+}
+
+
+body{
+  background-color: white;
+}
+
+.nav{
+  display:flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: white;
+  height: 100px;
+  box-shadow: 0 0 1.5rem rgba(0,0,0,.125);
+  font-family: ct-book;
+
+}
+.logo img{
+  width:175px;
+}
+.nav .element{
+  display: inline-flex;
+  padding: 10px 15px;
+}
+.element p{
+  padding-left: 20px;
+  font-size: 30px;
+  margin-top: -15px;
+  transform: rotate(90deg);
+  color: #00a589;
+}
+.nav .element:hover{
+  cursor: pointer;
+}
+
+#login{
+  color: #00a589;
+  transition: background-color 0.5s ease;
+}
+#login:hover{
+  background-color: #00a589;
+  color: white;
+}
+
+
+
+.container{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 40px; */
+  padding: 40px 0px;
+}
+.container-content{
+  padding: 10 20px;
+  width: 50%;
+}
+
+.cc-heading{
+  font-family: ct-bold;
+  font-size: 50px;
+  padding-bottom: 20px;
+}
+
+.cc-caption{
+  padding: 10px 0px;
+  font-size: 18px;
+  font-family: ct-book;
+  padding-bottom: 60px;
+}
+
+.button-container{
+  color: black;
+  font-family: ct-italic;
+  display: inline-flex;
+  background-color: #06db7f;
+  padding: 20px 20px;
+  width: 200px;
+  height: 20px;
+  justify-content: space-between;
+}
+
+a:link{
+  text-decoration: none;
+}
+
+
+.thimble-mp4 video{
+  height: 325px;
+}
