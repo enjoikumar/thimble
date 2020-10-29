@@ -63,36 +63,54 @@ body{
   display:flex;
   justify-content: center;
   align-items: center;
-  /* margin-top: 40px; */
-  padding: 40px 0px;
+  padding: 150px 0px;
+  background-color: #f5f4f6;
+  margin: 30px 30px;
 }
 .container-content{
-  padding: 10 20px;
-  width: 50%;
+  padding-left: 40px;
 }
 
 .cc-heading{
-  font-family: ct-bold;
-  font-size: 50px;
-  padding-bottom: 20px;
+  font-family: "ct-bold", sans-serif;
+  font-size: 4.5rem;
+  font-weight: 900;
+  line-height: 1;
 }
 
 .cc-caption{
-  padding: 10px 0px;
-  font-size: 18px;
+  padding-top: 10px;
   font-family: ct-book;
-  padding-bottom: 60px;
+  color: #58595b;
+  font-size: 1.25rem;
+  line-height: 2em;
+  margin-top: -15px;
 }
 
 .button-container{
   color: black;
   font-family: ct-italic;
   display: inline-flex;
-  background-color: #06db7f;
-  padding: 20px 20px;
-  width: 200px;
-  height: 20px;
   justify-content: space-between;
+
+  background-color: #07db7f;
+  border-radius: .125rem;
+  color: #000;
+  font-size: 1rem;
+  font-weight: 500;
+  font-style: italic;
+  letter-spacing: .25px;
+  line-height: 1.5rem;
+  margin: 1rem 0;
+  padding: 1.25rem 4rem 1rem 2rem;
+  text-align: left;
+}
+.symbol{
+  float: right;
+  margin-left: 65px;
+  margin-top: -5px;
+  font-size: 2rem;
+  font-weight: 500;
 }
 
 a:link{
@@ -101,5 +119,7 @@ a:link{
 
 
 .thimble-mp4 video{
-  height: 325px;
+  height: 25rem;
+  width: 25rem;
+  padding-right: 80px;
 }
